@@ -1,0 +1,9 @@
+.link-icons {
+	text-align: center;
+
+	&__icon {
+		background-color:#d3d3d3;
+		display: inline-block;
+		max-height: 50px;
+	}
+}

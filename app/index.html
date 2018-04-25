@@ -7,15 +7,12 @@
     <title>Nomad Mentors</title>
     <meta name="keywords" content="Travel planning, nomads, nomadic lifestyle, RV living">
     <meta name="description" content="Your life. Your way. We help you get there.">
-
     <!-- build:css assets/styles/styles.css -->
     <link rel="stylesheet" href="temp/styles/styles.css">
     <!-- endbuild -->
-
     <!-- build:js assets/scripts/Vendor.js -->
-        <!-- use for Vendor.js in the future -->
+    <!-- use for Vendor.js in the future -->
     <!-- endbuild -->
-
 </head>
 
 <body>
@@ -29,7 +26,7 @@
             </div>
             <div class="site-header__menu-content">
                 <div class="site-header__btn-container">
-                    <a href="#" class="btn">Get in Touch</a>
+                    <a href="#" class="btn open-modal">Get in Touch</a>
                 </div>
                 <nav class="primary-nav primary-nav--pull-right">
                     <ul>
@@ -53,7 +50,7 @@
                 <h1 class="large-hero__title">Your life.</h1>
                 <h2 class="large-hero__subtitle">Your way.</h2>
                 <p class="large-hero__description">We have mentors who can help you get there.</p>
-                <p><a href="#" class="btn btn--orange btn--large">Get Started Today</a></p>
+                <p><a href="#" class="btn btn--orange btn--large open-modal">Get Started Today</a></p>
             </div>
         </div>
     </div>
@@ -153,14 +150,26 @@
     </div>
     <footer class="site-footer">
         <div class="wrapper">
-            <p><span class="site-footer__text"> Copyright &copy; 2018 Nomad Mentors. All rights reserved.</span> <a href="#" class="btn btn--orange">Get in Touch</a></p>
+            <p><span class="site-footer__text"> Copyright &copy; 2018 Nomad Mentors. All rights reserved.</span> <a href="#" class="btn btn--orange open-modal">Get in Touch</a></p>
         </div>
     </footer>
-
+    <div class="modal">
+        <div class="modal__inner">
+            <h2 class="section-title section-title--blue section-title--less-margin"><span class="icon icon--mail section-title__icon"></span>Get in <strong>Touch</strong></h2>
+            <div class="wrapper wrapper--narrow">
+                <p class="modal__description">
+                    We will have a contact form here as soon as the program begins. Until then, you can check out our Nomad Companion site below!
+                </p>
+            </div>
+            <div class="link-icons">
+                <a href="https://pipnsam.com/nomadbuddy/register/" target="_blank"><img class="link-icons__icon" src="assets/images/icons/NC.png"></a>
+            </div>
+        </div>
+        <div class="modal__close">X</div>
+    </div>
     <!-- build:js assets/scripts/App.js -->
     <script src="/temp/scripts/App.js"></script>
     <!-- endbuild -->
-    
 </body>
 
 </html>
